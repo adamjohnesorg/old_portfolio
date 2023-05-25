@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+        <meta name = "author" content = "Adam Johnes">
+        <title>Adam Johnes' Portfolio</title>
+        <meta name = "description" content = "Adam Johnes' Portfolio">
+        <link rel = "stylesheet" href= "style.css">
+        <script type = "text/javascript" src = "homeScript.js"></script>
+    </head>
+    <body id = "backPage">
+        <div id = "container">
+            <div class = "row" id = "ribbon">
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "toMyBackground" onclick = "toMyBackground();">More About Who I Am</button> 
+                </div>
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "contactMe" onclick = "toContactMe();">Contact Me</button>
+                </div>
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "homePage" onclick = "toHomePage();">Back to Portfolio</button>
+                </div>
+            </div>
+            <div class = "content" id = "contentFour">
+                <div class = "row">
+                    <div class = "col-4">
+                        <div id = "calcHeadHolder">
+                            <h1 id = "calcHead">Cat Litterbox Liner Calculator</h1>
+                            <a href = "https://catlitterboxlinercalculator.com/"><img id = "calcPic" src = "Images/catcalc.png"></a>
+                        </div>
+                    </div>
+                    <div class = "col-8">
+                        <div id = "calcBodyHolder">
+                            <p id = "calcBody">
+                                <a href = "https://catlitterboxlinercalculator.com/">Catlitterboxlinercalculator.com</a> was my first attempt at creating a website.
+                                I am currently undergoing a massive effort to re-design and better implement
+                                the entire website as it has some massive front-end design flaws. However, I
+                                am still quite happy with the way it currently looks and it is functional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "content" id = "contentFive">
+                <div class = "row">
+                    <div class = "col-4" id = "fRight">
+                        <div id = "nflHeadHolder">
+                            <h1 id = "nflHead">NFL Spread Generator</h1>
+                            <img id = "spreadPic" src = "Images/spreads.png"></a>
+                        </div>
+                    </div>
+                    <div class = "col-8" id = "fRight">
+                        <div id = "nflBodyHolder">
+                            <p id = "nflBody">
+                                NFL Spread Generator is an application that creates betting spreads
+                                based on an algorithm and user-generated data. The purpose of this program
+                                is to compare the spreads to the popular Vegas' spreads and look for any
+                                discrepancies. If the two disagreed on a spread, the objective was for
+                                the Spread Generator to be correct. Thus, any further discrepancies were
+                                betting targets. The user is allowed to update team statistics on a weekly
+                                basis based on real life score results, which causes the application to 
+                                adjust its spreads accordingly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "content" id = "contentSix">
+                <div class = "row">
+                    <div class = "col-4">
+                        <div id = "palletHeadHolder">
+                            <h1 id = "palletHead">Alfapet Pallet Builder</h1>
+                            <div id = leftForms>
+                                <h1 id = "exInput">Example of Input<img id = "inputPic" src = "Images/input.png"></h1>
+                                <h1 id = "exOutput">Example of Output<img id = "palletPic" src = "Images/pallet.png"></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-8">
+                        <div id = "palletBodyHolder">
+                            <p id = "palletBody">
+                                Alfapet Pallet Builder is an application that was created to better organize
+                                the layout of pallet orders on the warehouse floor. Since the warehouse has
+                                limited space, it is recommended to get the most out of it. There is also
+                                additional criteria that a particular pallet order must meet, such as:
+                                <br> 
+                                <br> &#x2022; A pallet order must not be over 6 layers tall in height
+                                <br> &#x2022; A pallet order must not have more than 4 pallets per pallet order
+                                <br> &#x2022; A pallet order must be limited to at most one 40 case order per
+                                pallet order
+                                <br>
+                                <br>
+                                The so-called "laying out" of pallet orders was a laborous task performed by hand but now
+                                it is performed by a program that does it in a matter of seconds
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

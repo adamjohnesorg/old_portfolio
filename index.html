@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+        <meta name = "author" content = "Adam Johnes">
+        <title>Adam Johnes' Portfolio</title>
+        <meta name = "description" content = "Adam Johnes' Portfolio">
+        <link rel = "stylesheet" href= "style.css">
+        <script type = "text/javascript" src = "homeScript.js"></script>
+    </head>
+    <body id = "backPage">
+        <div id = "container">
+            <div class = "row" id = "ribbon">
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "toMyBackground" onclick = "toMyBackground();">More About Who I Am</button> 
+                </div>
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "contactMe" onclick = "toContactMe();">Contact Me</button>
+                </div>
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "myWork" onclick = "toProjects()">Some Projects I Have Created</button>
+                </div>
+            </div>
+            <div class = "content" id = "firstCont">
+                <div class = "row">
+                    <div id = "imageBody">
+                        <div class = "col-3">
+                            <div id = leftCon>
+                                <img id = "leftPic">
+                            </div>
+                        </div>
+                        <div class = "col-6">
+                            <div id = "mainImg">
+                                <span class = "dot" id = "mainPicBg"><img src = "./Images/portfolio.png" id = "mainPic"></span>
+                            </div>
+                            <h1 id = "adamJohnes">Adam Johnes</h1>
+                        </div>
+                        <div class = "col-3">
+                            <div id = "rightCon">
+                                <img id = "rightPic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row" id = "bgAbMe">
+                    <div class = "col-12">
+                            <h1 id = "welcome"><i>Welcome!</i></h1>
+                            <p id = "aboutMeText"><br>
+                                I went to school to be a physical therapist<br> 
+                                and came out as a software developer. <br>Learn more about me and my story.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

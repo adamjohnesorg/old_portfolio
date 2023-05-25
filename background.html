@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+        <meta name = "author" content = "Adam Johnes">
+        <title>Adam Johnes' Portfolio</title>
+        <meta name = "description" content = "Adam Johnes' Portfolio">
+        <link rel = "stylesheet" href= "style.css">
+        <script type = "text/javascript" src = "homeScript.js"></script>
+    </head>
+    <body id = "backPage">
+        <div id = "container">
+            <div class = "row" id = "ribbon">
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "homePage" onclick = "toHomePage();">Back to Portfolio</button> 
+                </div>
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "contactMe" onclick = "toContactMe();">Contact Me</button>
+                </div>
+                <div class="col-4" id="buttonBacks">
+                    <button type = "button" class = "widget" id = "myWork" onclick = "toProjects()">Some Projects I Have Created</button>
+                </div>
+            </div>
+            <div class = "content" id = "contentOne">
+                <div class = "row">
+                    <div class = "col-4">
+                        <img src = "./Images/slu.png" id = "sluPic">
+                        <img src = "./Images/pt.png" id = "ptPic">
+                    </div>
+                    <div class = "col-4">
+                        <h1 id = "questionOne">Who are you and where are you from?</h1>
+                        <p id = "answerOne">My name is Adam Johnes and I am originally from Alton, IL.
+                            I went to Saint Louis University (SLU) in pursuit of a 
+                            medical doctorate in Physical Therapy, but after four
+                            semesters, I decided transfer schools to Southern Illinois University (SIUE) to pursue a
+                            degree in Computer Science.
+                        </p>
+                        <div class="arrow" id="arrowOne">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class = "col-4">
+                        <img src = "./Images/SIUE.png" id = "siuePic">
+                        <img src = "./Images/se.png" id = "sePic">
+                    </div>
+                </div>
+            </div>
+            <div class = "content" id = "contentTwo">
+                <div class = "row" id = "rowFlip">
+                    <div class = "col-4">
+                        <h1 id = "questionTwo">What are your hobbies / interests?</h1>
+                        <p id = "answerTwo">I think of myself as a relatively simple guy, who has a few hobbies
+                            that I care about.<br>Here are some of my favorite things to do or enjoy:</p>
+                            <ul id = "hobbyList">
+                                <li>Chess</li>
+                                <li>Animals</li>
+                                <li>Creating New Things<br>(recently been working on things inside Blender, Aseprite)</li>
+                                <li>Learning<br>(currently pursuing a certification in UX Design)</li>
+                                <li>Professional Sports (NFL / NBA) and fantasy leagues</li>
+                                <li>Exercising (need to work on this one)</li>
+                            </ul>
+                    </div>
+                    <div class = "col-4" id = "pics">
+                        <img src = "./Images/chess.png" id = "chessPic">
+                        <img src = "./Images/dog.png" id = "dogPic">
+                        <img src = "./Images/nfl.png" id = "nflPic">
+                    </div>
+                    <div class = "col-4">
+                        <h1 id = "questionThree">Programming Skills and Aspirations</h1>
+                        <div id = "skillsListing">
+                            <p id = "answerHeading">Good Understanding:</p>
+                            <ul id = "answerList">
+                                <li>HTML / CSS</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                            </ul>
+                            <p id = "answerHeading">Competent but not Fluent:</p>
+                            <ul id = "answerList">
+                                <li>C / C++ / C#</li>
+                                <li>Javascript</li>
+                                <li>Linux Systems / Emacs</li>
+                                <li>SQL</li>
+                            </ul>
+                            <p id = "answerHeading">In the Learning Process:</p>
+                            <ul id = "answerList">
+                                <li>UX Design</li>
+                                <li>Aseprite</li>
+                                <li>React.js</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
