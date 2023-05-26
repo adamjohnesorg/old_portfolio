@@ -145,6 +145,17 @@ a {
   font-size:60px;
 }
 
+#resume {
+  position:relative;
+  width:100%;
+  text-align:center;
+  font-size:32px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  font-family:monospace, serif;
+}
+
 #leftPic {
   position:relative;
   width:0%;
